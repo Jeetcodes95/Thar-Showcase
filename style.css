@@ -92,12 +92,16 @@ small{
     padding-left: 20px;
     padding-right: 20px;
 }
-.center2 h4{
+.center2 a{
     font-family: sans-serif;
     font-size: 13px;
     color: #fff;
+    text-decoration: none;
 }
-.page1{
+.center2 a:hover{
+    color: red;
+}
+#page1{
     display: flex;
     width: 100%;
     height: 80%;
@@ -228,13 +232,13 @@ h1{
    padding-top: 120px;
 }
 
-.page2{
+#page2{
     width: 100%;
     height: 100%;
     background-color: #111;
     padding: 20px 120px;
 }
-.page2 h4{
+#page2 h4{
     position: relative;
     color: #fff;
     font-weight: 500;
@@ -242,7 +246,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
-.page2 h4::after{
+#page2 h4::after{
     position: absolute;
     content: "";
     top: 0;
@@ -285,12 +289,13 @@ h1{
    
     
 }
-.page3{
+#page3{
     width: 100%;
     height: 130%;
     background-color: #222;
+    display: flex;
 }
-.page3 .txt{
+#page3 .txt{
     margin-top: -40px;
 }
 .text{
@@ -322,7 +327,64 @@ h1{
     font-weight: 500;
     font-size: 17px;
 }
-.page4{
+#page3 .right #images{
+    width: 450px;
+    height: 400px;
+    /* background-color: red; */
+    margin-top: 170px;
+    margin-left: 125px;
+    margin-bottom: 40px;
+    background-image: url(https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/dark-theme-mahindra-images/variants-and-pricing/thar/desktop/side-face_rage-red.webp?rev=2a20456676c4451eb2d249daa2573013&extension=webp);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.elem{
+    width: 65%;
+    height: 50px;
+    /* background-color: #fff; */
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#e1{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: #ce0e2d;
+    border: .5px solid #fff;
+}
+#e4{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: .5px solid #fff;
+}
+#e3{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: rgb(29, 31, 50);
+    border: .5px solid #fff;
+}
+#e2{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: black;
+    border: .5px solid #fff;
+}
+#e5{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: rgb(162, 162, 22);
+    border: .5px solid #fff;
+}
+#page4{
     display: flex;
     width: 100%;
     height: 80%;
@@ -378,7 +440,7 @@ h3::after{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 200;
 }
-.page4 .btn h5{
+#page4 .btn h5{
     /* background-color: aqua; */
     font-size: 12px;
     margin-left: 40px;
@@ -388,7 +450,7 @@ h3::after{
     -webkit-transform: skew(-14deg, 0deg);
     transform: skew(-14deg, 0deg); 
 }
-.page4 .btn h4{
+#page4 .btn h4{
     position: relative;
     color: #000;
     background: linear-gradient( rgba(86, 86, 86, 0.163), rgba(255, 255, 255, 0.861));
@@ -444,13 +506,13 @@ h3::after{
    width: 80%;
    height: 100%;
 }
-.page5{
+#page5{
     width: 100%;
     height: 100%;
     background-color: #111;
     padding: 20px 100px;
 }
-.page5 h4{
+#page5 h4{
     position: relative;
     color: #fff;
     font-weight: 500;
@@ -458,7 +520,7 @@ h3::after{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 50px;
 }
-.page5 h4::after{
+#page5 h4::after{
     position: absolute;
     content: "";
     top: 0;
@@ -577,13 +639,13 @@ h3::after{
     margin-top: 40px;
     margin-left: 150px;
 }
-.page6{
+#page6{
     width: 100%;
     height: 60%;
     background-color: #000;
     padding: 20px 100px;
 }
-.page6>h4{
+#page6>h4{
     position: relative;
     color: #fff;
     font-weight: 500;
@@ -591,7 +653,113 @@ h3::after{
     font-family: Arial, Helvetica, sans-serif;
     /* margin-bottom: 50px; */
 }
-.page6>h4::after{
+#page6>h4::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -20px;
+    width: 3px;
+    height: 100%;
+    background-color: #ce0e2d;
+    -ms-transform: skew(-14deg, 0deg);
+    -webkit-transform: skew(-14deg, 0deg);
+    transform: skew(-14deg, 0deg);
+}
+.boxx{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    margin-top: 4%;
+}
+.b1{
+    width: 31%;
+    height: 100%;
+    
+}
+.b1 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.b1 h6{
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#page7{
+    width: 100%;
+    height: 60%;
+    background-color: #000;
+    padding: 20px 100px;
+}
+#page7>h4{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 50px; */
+}
+#page7>h4::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -20px;
+    width: 3px;
+    height: 100%;
+    background-color: #ce0e2d;
+    -ms-transform: skew(-14deg, 0deg);
+    -webkit-transform: skew(-14deg, 0deg);
+    transform: skew(-14deg, 0deg);
+}
+.boxx{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    margin-top: 4%;
+}
+.b1{
+    width: 31%;
+    height: 100%;
+    
+}
+.b1 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.b1 h6{
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#page8{
+    width: 100%;
+    height: 60%;
+    background-color: #000;
+    padding: 20px 100px;
+}
+#page8>h4{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 50px; */
+}
+#page8>h4::after{
     position: absolute;
     content: "";
     top: 0;
