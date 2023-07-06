@@ -6,14 +6,20 @@
 html,body{
     width: 100%;
     height: 100%;
+    user-select: none;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }
 .main{
     width: 100%;
     height: 100%;
-    /* background-color: red; */
-    background-image: url(./thar.jpg);
+    background-image: url(./asset/thar.jpg);
     background-size: cover;
 }
+
 .nav{
     display: flex;
     position: fixed;
@@ -57,6 +63,10 @@ html,body{
 small{
     font-size: 15px;
     font-family: sans-serif;
+}
+.head{
+    letter-spacing: 5px;
+    font-weight: 100;
 }
 .center{
    z-index: 22;
@@ -162,7 +172,6 @@ h1{
     font-weight: 200;
 }
 .btn h5{
-    /* background-color: aqua; */
     font-size: 14px;
     margin-left: 40px;
     padding: 12px 60px;
@@ -301,7 +310,6 @@ h1{
 .text{
     width: 550px;
     height: 65%;
-    /* background-color: red; */
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -310,7 +318,6 @@ h1{
 .text1{
     width: 31%;
     height: 100%;
-    /* background-color: blue; */
     border-right: 1px solid #fff;
     font-family: sans-serif;
 }
@@ -330,7 +337,6 @@ h1{
 #page3 .right #images{
     width: 450px;
     height: 400px;
-    /* background-color: red; */
     margin-top: 170px;
     margin-left: 125px;
     margin-bottom: 40px;
@@ -343,7 +349,6 @@ h1{
 .elem{
     width: 65%;
     height: 50px;
-    /* background-color: #fff; */
     margin-left: 130px;
     display: flex;
     align-items: center;
@@ -397,7 +402,6 @@ h1{
     padding: 30px 0px 0 120px;
     color: #fff;
     position: relative;
-    /* background-color: #ce0e2d; */
 }
 h3{
     margin-bottom: 80px;
@@ -441,7 +445,6 @@ h3::after{
     font-weight: 200;
 }
 #page4 .btn h5{
-    /* background-color: aqua; */
     font-size: 12px;
     margin-left: 40px;
     padding: 15px 30px;
@@ -499,7 +502,6 @@ h3::after{
     position: relative;
     width: 50%;
     height: 100%;
-    /* background-color: #fff; */
     
 }
 #image{
@@ -537,12 +539,10 @@ h3::after{
     gap: 20px;
     width: 100%;
     height: 70%;
-    /* background-color: #ce0e2d; */
 }
 .first{
     width: 40%;
     height: 100%;
-    /* background-color: #8e3d49; */
     background-image: url(https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/dark-theme-mahindra-images/gallery/thar/thar_710x570px.jpg?rev=d0ccd575215148679776f5e8cb73dc16&extension=webp);
     background-size: cover;
 }
@@ -552,19 +552,16 @@ h3::after{
     gap: 20px;
     width: 30%;
     height: 100%;
-    /* background-color: #555; */
 }
 .s1{
     width: 100%;
     height: 50%;
-    /* background-color: tan; */
     background-image: url(https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/dark-theme-mahindra-images/gallery/thar/thumbnail/thar-left-front-image.jpg?rev=ae5f7c35b1bb421da05854d806b34d84&extension=webp);
     background-size: cover;
 }
 .s2{
     width: 100%;
     height: 50%;
-    /* background-color: red; */
     background-image: url(https://cdni.autocarindia.com/ExtraImages/20210521012336_THARAUST.jpg);
     background-size: cover;
 }
@@ -574,19 +571,16 @@ h3::after{
     gap: 20px;
     width: 30%;
     height: 100%;
-    /* background-color: #522; */
 }
 .t1{
     width: 100%;
     height: 50%;
-    /* background-color: tan; */
     background-size: cover;
     background-image: url(https://img-ik.cars.co.za/images/2020/8/MahindraThar/tr:n-news_1200x/tharMAIN.jpg);
 }
 .t2{
     width: 100%;
     height: 50%;
-    /* background-color: red; */
     background-image: url(https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/dark-theme-mahindra-images/gallery/thar/thumbnail/mahindra-thar-back-side.jpg?rev=f0375c01c4df4674a05c8d4e31f7eac7&extension=webp);
     background-size: cover;
 }
@@ -600,7 +594,6 @@ h3::after{
     justify-content: center;
 }
 .btn1 h5{
-    /* background-color: aqua; */
     font-size: 14px;
     margin-top: 30px;
     padding: 12px 30px;
@@ -614,11 +607,7 @@ h3::after{
     cursor: pointer;
     background: linear-gradient(  rgba(86, 86, 86, 0.163),rgba(255, 255, 255, 0.861));
 }
-/* .btn1 h5:hover{
-    cursor: pointer;
-    background-color: #fff;
-    color: #000;
-} */
+
 .btn1 h5::after{
     position: absolute;
     content: "";
@@ -651,7 +640,6 @@ h3::after{
     font-weight: 500;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    /* margin-bottom: 50px; */
 }
 #page6>h4::after{
     position: absolute;
@@ -670,7 +658,6 @@ h3::after{
     justify-content: space-between;
     width: 100%;
     height: 80%;
-    /* background-color: red; */
     margin-top: 4%;
 }
 .b1{
@@ -682,8 +669,13 @@ h3::after{
     width: 100%;
     height: 70%;
     object-fit: cover;
+    transition: all 0.5 ease-in-out;
+    border-radius: 10px;
 }
 
+.b1 img:hover{
+    transform: scale(1.05);
+}
 .b1 h6{
     font-size: 20px;
     color: #fff;
@@ -704,7 +696,6 @@ h3::after{
     font-weight: 500;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    /* margin-bottom: 50px; */
 }
 #page7>h4::after{
     position: absolute;
@@ -723,7 +714,6 @@ h3::after{
     justify-content: space-between;
     width: 100%;
     height: 80%;
-    /* background-color: red; */
     margin-top: 4%;
 }
 .b1{
@@ -757,7 +747,6 @@ h3::after{
     font-weight: 500;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    /* margin-bottom: 50px; */
 }
 #page8>h4::after{
     position: absolute;
@@ -776,7 +765,6 @@ h3::after{
     justify-content: space-between;
     width: 100%;
     height: 80%;
-    /* background-color: red; */
     margin-top: 4%;
 }
 .b1{
